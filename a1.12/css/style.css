@@ -1,0 +1,29 @@
+q {
+    font-weight: bold;
+  }
+blockquote {
+    background-color: yellow;
+  }
+/*li:nth-child(2) {
+	background-color: rgb(235,113,13);
+}*/
+li:nth-of-type(2n+1) {
+	background-color: rgb(235,113,13);
+}
+
+ul:nth-child(){
+	background-color: green;
+}
+
+h2:nth-of-type(2n){
+	background-color: pink;
+}
+
+.main-text {
+	color: rgb(0,0,0);
+}
+
+.intro {
+	color: rgba(255,255,225,0.5);
+}
+

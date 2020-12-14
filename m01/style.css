@@ -1,0 +1,30 @@
+.items th,
+.items td {
+	border: 1px solid black;
+}
+.items {
+	border-collapse: collapse;
+}
+.items tbody tr:nth-of-type(2n+1) {
+    background-color: rgb(252, 198, 128);
+}
+.items2 tbody tr:nth-of-type(2n) {
+	background-color: rgb(146, 252, 194);
+}
+.client-text {
+    font-weight: bold;
+    color: blue;
+}
+
+.internet-text {
+    text-transform: uppercase;
+}
+
+.browser-text {
+    font-style: italic;
+    color: orange;
+}
+
+.server-text {
+    color: red;
+}
