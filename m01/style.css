@@ -6,7 +6,7 @@
 	border-collapse: collapse;
 }
 .items tbody tr:nth-of-type(2n+1) {
-    background-color: rgb(252, 198, 128);
+    background-color: #1e7f9d;
 }
 .items2 tbody tr:nth-of-type(2n) {
 	background-color: rgb(146, 252, 194);
@@ -22,7 +22,7 @@
 
 .browser-text {
     font-style: italic;
-    color: orange;
+    color: #1e7f9d;
 }
 
 .server-text {
