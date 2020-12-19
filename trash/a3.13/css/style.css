@@ -93,7 +93,12 @@ html,body {
 }
 
 .intro-image {
+	width: 511;
 	align-self: flex-end;
+}
+
+.intro-image img {
+	width: 100%;
 }
 
 .contact-link {
